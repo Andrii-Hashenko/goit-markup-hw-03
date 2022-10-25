@@ -57,6 +57,9 @@ a {
 ul {
     list-style-type: none
 }
+address {
+    font-style: normal;
+}
 /* HEADER */
 .logo {
     font-family: 'Raleway';
@@ -90,6 +93,9 @@ ul {
 .nav-cont:focus {
     color: var(--web-hover-fokus);
 }
+.nav-head .current {
+    color: var(--web-hover-fokus);
+}
 .contacts-mailto {
     font-weight: 500;
     line-height: 1.14;
@@ -116,12 +122,12 @@ ul {
 /* MAIN */
 .hero {
     background: var(--hero-footer-background);
+    text-align: center;
 }
 .title-hero {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--hero-footer);
@@ -131,9 +137,6 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--hero-footer);
     background: var(--web-hover-fokus);
@@ -148,6 +151,7 @@ ul {
 /* OFFER */
 .offer-title {
     font-weight: 700;
+    font-size: 16px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--text-color);
