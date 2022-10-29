@@ -51,6 +51,19 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+.container {
+  width: 1200px;
+  padding: 0 15px;
+}
+.section {
+  padding: 94px 0;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
 a {
   text-decoration: none;
 }
@@ -75,6 +88,9 @@ address {
   line-height: 1.19px;
   color: var(--web-hover-fokus);
 }
+.nav {
+  display: flex;
+}
 .nav-stud,
 .nav-portf,
 .nav-cont {
@@ -97,6 +113,10 @@ address {
 }
 .nav-head .current {
   color: var(--web-hover-fokus);
+}
+.contacts-head {
+  display: flex;
+  margin-left: auto;
 }
 .contacts-mailto {
   font-weight: 500;
@@ -236,6 +256,9 @@ footer {
 .adres-tel:hover,
 .adres-tel:focus {
   color: var(--web-hover-fokus);
+}
+.footer-line {
+  border-bottom: 1px solid var(--hero-footer-background);
 }
 /* PORTFOLIO */
 /* PROJECTS */
