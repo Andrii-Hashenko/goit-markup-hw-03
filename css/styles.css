@@ -91,6 +91,17 @@ address {
 .nav {
   display: flex;
 }
+.nav-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 93px;
+}
+.nav-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .nav-stud,
 .nav-portf,
 .nav-cont {
@@ -98,6 +109,7 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  padding: 32px 0;
 }
 .nav-stud:hover,
 .nav-stud:focus {
@@ -116,6 +128,8 @@ address {
 }
 .contacts-head {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
   margin-left: auto;
 }
 .contacts-mailto {
