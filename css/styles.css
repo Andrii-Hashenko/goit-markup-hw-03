@@ -396,6 +396,7 @@ footer {
 }
 .portfolio-card {
   padding: 0 24px;
+  border-bottom: 1px solid var(--headline-border-bottom);
 }
 .projects-head {
   font-weight: 700;
