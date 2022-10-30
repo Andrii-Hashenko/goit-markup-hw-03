@@ -172,6 +172,7 @@ address {
   background: var(--hero-footer-background);
   text-align: center;
   padding: 200px 0;
+  width: 1200px;
 }
 .title-hero {
   font-weight: 900;
@@ -292,18 +293,28 @@ address {
 /* FOOTER */
 footer {
   background: var(--hero-footer-background);
+  width: 1200px;
 }
 .logo-footer {
+  display: block;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--hero-footer);
+  padding-top: 60px;
+  padding-left: 30px;
+  margin-bottom: 20px;
 }
 .adres-geo {
   line-height: 1.71;
   color: var(--hero-footer);
+  margin-bottom: 9px;
 }
+/* .adres {
+  display: flex;
+  flex-direction: column;
+  } */
 .adres-geo:hover,
 .adres-geo:focus {
   color: var(--web-hover-fokus);
@@ -311,6 +322,9 @@ footer {
 .adres-mailto {
   line-height: 1.71;
   color: var(--adres-m-t-color);
+}
+.adres-mail {
+  margin-bottom: 9px;
 }
 .adres-mailto:hover,
 .adres-mailto:focus {
@@ -323,6 +337,9 @@ footer {
 .adres-tel:hover,
 .adres-tel:focus {
   color: var(--web-hover-fokus);
+}
+.adres-mytel {
+  padding-bottom: 60px;
 }
 .footer-line {
   border-bottom: 1px solid var(--hero-footer-background);
@@ -346,6 +363,26 @@ footer {
     0px 2px 2px var(--team-bth-p-box-shadow);
   border-radius: 4px;
   color: var(--hero-footer);
+}
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+  margin-left: -32px;
+}
+.filter-item {
+  margin-right: 8px;
+ 
+}
+.filter-item:nth-child(5n) {
+  margin-right: 0;
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-item {
+  
 }
 .projects-head {
   font-weight: 700;
