@@ -380,9 +380,22 @@ footer {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -45px;
 }
 .portfolio-item {
-  
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  align-content: center;
+  }
+  .portfolio-item:nth-child(3n) {
+    margin-right: 0;
+  }
+.portfolio-img {
+  margin-bottom: 20px;
+}
+.portfolio-card {
+  padding: 0 24px;
 }
 .projects-head {
   font-weight: 700;
@@ -390,9 +403,11 @@ footer {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
+  margin-bottom: 4px;
 }
 .projects-text {
   font-size: 16px;
   line-height: 1.88;
   color: var(--additional-text);
+  padding-bottom: 20px;
 }
