@@ -372,7 +372,6 @@ footer {
 }
 .filter-item {
   margin-right: 8px;
- 
 }
 .filter-item:nth-child(5n) {
   margin-right: 0;
@@ -387,10 +386,10 @@ footer {
   margin-right: 30px;
   margin-bottom: 30px;
   align-content: center;
-  }
-  .portfolio-item:nth-child(3n) {
-    margin-right: 0;
-  }
+}
+.portfolio-item:nth-child(3n) {
+  margin-right: 0;
+}
 .portfolio-img {
   margin-bottom: 20px;
 }
