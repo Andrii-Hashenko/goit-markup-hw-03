@@ -370,6 +370,7 @@ footer {
   text-align: center;
   color: var(--text-color);
   cursor: pointer;
+  border: transparent;
 }
 .btn-projects:hover,
 .btn-projects:focus {
