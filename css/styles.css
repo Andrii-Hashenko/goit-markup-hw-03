@@ -111,6 +111,7 @@ address {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
 }
 .nav-head li:not(:first-child) {
   margin-left: 50px;
@@ -120,6 +121,7 @@ address {
   margin-left: auto;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
 }
 .contacts-head li:not(:first-child) {
   margin-left: 50px;
@@ -238,6 +240,9 @@ address {
 }
 /* JOB */
 .job {
+  padding-top: 0;
+}
+.job-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -318,7 +323,6 @@ footer {
   line-height: 1.19;
   color: var(--hero-footer);
   padding-top: 60px;
-  padding-left: 30px;
   margin-bottom: 20px;
 }
 .adres-geo {
@@ -326,10 +330,9 @@ footer {
   color: var(--hero-footer);
   margin-bottom: 9px;
 }
-/* .adres {
-  display: flex;
-  flex-direction: column;
-  } */
+.adres {
+  padding-left: 0;
+}
 .adres-geo:hover,
 .adres-geo:focus {
   color: var(--web-hover-fokus);
@@ -411,12 +414,11 @@ footer {
   align-content: center;
 }
 
-.portfolio-img {
-  margin-bottom: 20px;
-}
 .portfolio-card {
-  padding: 0 24px;
+  padding: 20px 24px 0 24px;
+  border-right: 1px solid var(--headline-border-bottom);
   border-bottom: 1px solid var(--headline-border-bottom);
+  border-left: 1px solid var(--headline-border-bottom);
 }
 .projects-head {
   font-weight: 700;
